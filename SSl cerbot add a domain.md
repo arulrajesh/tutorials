@@ -4,5 +4,5 @@ If a certificate already created for the url kibana.sitelinsights.com and you wa
 then type the following into the terminal
 
 <code>
-certbot -cert-name kibana.sitelinsights.com -d www.sitelinsights.con,kibana.sitelinsights.com
+certbot certonly --cert-name kibana.sitelinsights.com -d www.sitelinsights.com,kibana.sitelinsights.com
 </code>
